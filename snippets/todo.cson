@@ -238,6 +238,9 @@
   'todo':
     'prefix': 'todo'
     'body': '// TODO: $0'
+  'example':
+      'prefix': 'example'
+      'body': '// EXAMPLE: $0'
   'fixme':
     'prefix': 'fix'
     'body': '// FIXME: $0'
@@ -356,6 +359,9 @@
   'todo':
     'prefix': 'todo'
     'body': '<?php // TODO: $1 ?>$0'
+  'example':
+	  'prefix': 'example'
+	  'body': '<?php // EXAMPLE: $1 ?>$0'
   'fixme':
     'prefix': 'fix'
     'body': '<?php // FIXME: $1 ?>$0'
